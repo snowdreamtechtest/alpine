@@ -105,4 +105,3 @@ jobs:
       - name: Test
         run: |
             docker run --rm snowdreamtechtest/alpine:latest cat /etc/os-release
-            docker run --rm ghcr.io/snowdreamtechtest/alpine/alpine:latest cat /etc/os-release
